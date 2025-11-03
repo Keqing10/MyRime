@@ -48,15 +48,15 @@ global_ascii: false                        # 切换为 ascii 模式时，是否�
 # [style]
 # 字体；候选项、候选窗口的行为、布局及样式
 style:
-  color_scheme: purity_of_form_custom      # 默认配色方案
+  color_scheme: zhiyin      # 默认配色方案
   # color_scheme_dark: nord                # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
 
   # 全局字体
   # 格式：字体1:起始码位:结束码位:字重:字形,字体2……，字体会依次 fallback
   # 详细设定请参考 <https://github.com/rime/weasel/wiki/字體設定>
-  font_face: "Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:30:39, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, Segoe UI, Microsoft YaHei, DengXian, Segoe UI Emoji, Noto Color Emoji, Segoe UI Symbol"
-  label_font_face: "Microsoft YaHei"       # 标签字体
-  comment_font_face: "Microsoft YaHei"     # 注释字体
+  font_face: "思源宋体, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:30:39, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, Segoe UI, Microsoft YaHei, DengXian, Segoe UI Emoji, Noto Color Emoji, Segoe UI Symbol"
+  label_font_face: "M思源黑体"       # 标签字体
+  comment_font_face: "思源黑体"     # 注释字体
   font_point: 14                           # 全局字体字号
   label_font_point: 14                     # 标签字体字号，不设定 fallback 到 font_point
   comment_font_point: 13                   # 注释字体字号，不设定 fallback 到 font_point
@@ -170,6 +170,35 @@ preset_color_schemes:
     hilited_candidate_border_color: 0xE3E3E3
     hilited_candidate_label_color: 0x4C4C4C
     hilited_candidate_text_color: 0x000000
+
+  zhiyin:
+    name: "只因"
+    author: 全民制作人
+    back_color: 0xDBCCCA
+    shadow_color: 0x00000000
+    border_color: 0x000000
+    text_color: 0x000000
+    hilited_text_color: 0x000000
+    hilited_back_color: 0xB8848E
+    hilited_shadow_color: 0x00000000
+    hilited_mark_color: 0xFFFFFF
+    hilited_label_color: 0xB8848E
+    hilited_candidate_text_color: 0xB8848E
+    hilited_comment_text_color: 0xF0C576
+    hilited_candidate_back_color: 0xBBC2D1
+    hilited_candidate_border_color: 0x00000000
+    hilited_candidate_shadow_color: 0x00000000
+    label_color: 0x000000
+    candidate_text_color: 0x000000
+    comment_text_color: 0x000000
+    candidate_back_color: 0x00000000
+    candidate_border_color: 0x00000000
+    candidate_shadow_color: 0x00000000
+    prevpage_color: 0x00000000
+    nextpage_color: 0x00000000
+
+
+
 
   # 以下为 weasel 自带的配色方案
   # source: <https://github.com/rime/weasel/blob/master/output/data/weasel.yaml>
