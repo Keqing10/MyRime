@@ -1,0 +1,33 @@
+patch:
+  style/+:
+    font_face: "思源宋体::demi_bold, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:30:39, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, Segoe UI, Microsoft YaHei, DengXian, Segoe UI Emoji, Noto Color Emoji, Segoe UI Symbol"
+    label_font_face: "思源黑体"       # 标签字体
+    comment_font_face: "思源黑体"     # 注释字体
+    color_scheme: zhiyin      # 默认配色方案
+
+  preset_color_schemes/+:
+    zhiyin:
+      name: "只因"
+      author: 全民制作人
+      back_color: 0xDBCCCA
+      shadow_color: 0x00000000
+      border_color: 0x000000
+      text_color: 0x000000
+      hilited_text_color: 0x000000
+      hilited_back_color: 0xDDDDDD
+      hilited_shadow_color: 0x00000000
+      hilited_mark_color: 0xBBC2D1
+      hilited_label_color: 0xFFFFFF
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_comment_text_color: 0xFFFFFF
+      hilited_candidate_back_color: 0xB8848E
+      hilited_candidate_border_color: 0x00000000
+      hilited_candidate_shadow_color: 0x00000000
+      label_color: 0x000000
+      candidate_text_color: 0x000000
+      comment_text_color: 0x000000
+      candidate_back_color: 0x00000000
+      candidate_border_color: 0x00000000
+      candidate_shadow_color: 0x00000000
+      prevpage_color: 0x00000000
+      nextpage_color: 0x00000000
